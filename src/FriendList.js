@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import { API_BASE } from './constants';
 
-class FriendsList extends Component {
+class FriendList extends Component {
 	constructor(props) {
 		super(props)
 		this.state = { friends: [] };
@@ -66,7 +66,7 @@ class FriendsList extends Component {
 	}
 }
 
-export default FriendsList;
+export default FriendList;
 
 
 
